@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_for_background_item">#DCDCDC</color>
+    <color name="orange_for_background_item">#F5D4C1</color>
+    <color name="blue_gradient">#1A73E9</color>
+    <color name="blue_gradient2">#6C92F4</color>
+    <color name="grey_for_home">#919191</color>
+</resources>

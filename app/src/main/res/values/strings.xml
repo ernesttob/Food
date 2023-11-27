@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FoodHub</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name_for_main_screen">Foodhub</string>
+    <string name="foodhubTxt">Main Menu</string>
+    <string name="burgerTxt">Burger</string>
+    <string name="korzinaTxt">В корзину</string>
+    <string name="priceforfoodTxt">6$</string>
+    <string name="pizza_Txt">Mixed Pizza</string>
+    <string name="pizza2_Txt">Pizza</string>
+    <string name="price_Of_Food">15$</string>
+    <string name="basketTxt">Basket</string>
+    <string name="add_your_food_Txt">Add Your Food</string>
+    <string name="add_your_food_name_Txt">Add Your Food Name</string>
+    <string name="add_your_food_type_Txt">Add Your Food Type</string>
+    <string name="add_your_food_price_Txt">Add Your Food Price</string>
+    <string name="add_food_Txt">ADD</string>
+    <string name="add_your_food_for_main_screen_Txt">Add Your Food!</string>
+    <string name="add_your_image_with_url_Txt">Add Your Image Food With Url</string>
+</resources>

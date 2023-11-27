@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@layout/fragment_main">
+
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.foodapp.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.foodapp.fragments.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+
+
+        <action
+            android:id="@+id/action_cartFragment_to_addFoodFragment2"
+            app:destination="@id/addFoodFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFoodFragment"
+        android:name="com.example.foodapp.fragments.AddFoodFragment"
+        android:label="fragment_add_food"
+        tools:layout="@layout/fragment_add_food" >
+        <action
+            android:id="@+id/action_addFoodFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_addFoodFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+</navigation>
